@@ -1,0 +1,299 @@
+  body{
+      background: #FFF ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+ul.topnav li a.active {
+  background-color: transparent;
+  color: white;
+
+ }
+
+ul.topnav li a:hover:not(.active) {
+	background-color: transparent;
+  color: white;
+ font-family:Algerian ;
+}
+
+
+ul.topnav li.right {
+	float: right;
+}
+a{
+color: transparent;
+transition: all .8s ease;
+}
+
+a:active{
+  color: transparent;
+}
+a:hover{
+  color: transparent;
+  font-size: 28px;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 38%;
+  margin: auto;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+
+h1{
+color: #000;
+text-align: center;
+font-family: verdana;
+font-size: 30px;
+}
+h2{
+color: #000;
+text-align: center;
+font-family: verdana;
+font-size: 15px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-register{
+width: 400px;
+background: #24303c;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'calibri';
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+   font-size: 22px;
+   margin-bottom: 20px;
+}
+
+.controls{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-bottom: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f52c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p{
+height: 40px;
+text-align: center;
+font-size:  18px;
+line-height: 40px;
+}
+
+.form-register a{
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons{
+  width: 100%;
+  background: #1f52c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px
+}
+
+
+
+footer {
+  max-width: 100%;
+  background: #000;
+  margin: 0 auto;
+  border-radius:  0 0 20px 20px;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  box-sizing:  border-box;
+  font-family: arial;
+  font-size: 12px;
+  }
+
+
+/*sociales del final*/
+.socials{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.socials * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.socials li {
+  display: inline-block;
+  list-style: outside none none;
+  float: left;
+  overflow: hidden;
+  width: 33.33333%;
+  font-size: 13px;
+}
+
+.socials a {
+  padding: 0.3em 0.8em;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.socials a:before,
+.socials a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  content: ""
+
+}
+
+.socials a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: ""
+}
+
+.socials a:after {
+  padding: 0.3em 0.8em;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+  width: 100%;
+  padding: 25px 0;
+}
+
+.socials li:hover a,
+.socials .current a {
+  transform: translateY(100%);
+}
+
+.facebook{
+  background: #000;
+  text-align: center;
+  /*padding: 20px 0;*/
+}
+.facebook a:after{
+  background-color: #527bbb;
+  text-align: center;
+}
+.twitter{
+  background: #000;
+  text-align: center;
+}
+.twitter a:after{
+  background-color: #77ccf1;
+  text-align: center;
+}
+.instagram{
+  background: #000;
+  text-align: center;
+}
+.instagram a:after{
+  background: #f46f30;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 30px;
+}
+
+/*Hola mundo, etc*/
+
+.contenedor3 {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 40px;
+  top: 0;
+  position: absolute;
+  margin: auto;
+
+  overflow: hidden;
+}
+
+.contenedor3 ul {
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 7s infinite;
+}
+
+.contenedor3 ul, p {
+  margin: 0;
+  font-size: 15px;
+  font: arial;
+}
+
+@keyframes cambiar {
+  0% { margin-top: 0; }
+  20% { margin-top: 0; }
+
+  25% { margin-top: -40px; }
+  50% { margin-top: -40px; }
+
+  55% { margin-top: -80px; }
+  80% { margin-top: -80px; }
+
+  85% { margin-top: -40px; }
+  95% { margin-top: -40px; }
+
+  100% { margin-top: 0px; }
+}
